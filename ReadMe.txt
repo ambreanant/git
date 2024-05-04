@@ -95,4 +95,7 @@ stagged - file is ready to be committed
 unmodified - unchanged.
 push - upload local repo content to remote repo
 
-29) 
+29) TO delete branch
+Ans: git branch -d <branch>
+
+30) 
