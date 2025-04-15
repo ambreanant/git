@@ -100,3 +100,40 @@ push - upload local repo content to remote repo
 Ans: git branch -d <branch>
 
 30) 
+------------------------------------------
+Going forward we need to follow the below steps when working with GIT branches.
+
+When creating new branches :
+(Always check with the person who is assigning you the task on which branch to use when creating a ticket branch.)
+
+git checkout master ( or the branch shared above )
+git pull --rebase
+git checkout -b <ID Branch>
+git add .
+git commit -m "commit message."
+git push
+
+Before merging a branch in any environment :
+******** VIMP ********
+git checkout master
+git pull --rebase
+git checkout <ID Branch>
+git pull --rebase
+git merge master
+<Resolve conflicts if any.
+git add .
+git commit -m "commit message.">
+git push
+******** VIMP ********
+
+(Always check with the person who is assigning you the task if you should go ahead and merge your changes.)
+
+git checkout ncqa(2,3,4)
+git pull --rebase
+git merge --no-commit <ID Branch>
+git status
+<Resolve conflicts if any.
+git add .>
+git commit -m "merge <id branc> in ncqa(2,3,4)">
+git push
+
