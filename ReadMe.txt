@@ -71,6 +71,7 @@ Ans:git reset <commit>
 
 22) Same as previous, but resets both the staging area & working directory to match. Deletes uncommitted changes, and all commits after <commit>.
 Ans: git reset --hard <commit>
+and  git reset --hard HEAD~2   (Delete Last two commits from remove directory also on local and it not store history)
 
 23) Merge <branch> into the current branch.
 Ans: git merge --no-f --no-commit <branch>
