@@ -99,7 +99,38 @@ push - upload local repo content to remote repo
 29) TO delete branch
 Ans: git branch -d <branch>
 
-30) 
+30) Show commit log with graph
+🔹 git log --oneline --graph --all
+
+31) Delete a remote branch
+🔹 git push origin --delete <branch>
+
+32) Rename a branch (local)
+🔹 git branch -m <new-name>
+
+33) Stash changes (save temporarily)
+🔹 git stash
+
+34) Apply last stashed changes
+🔹 git stash pop
+
+35) List all stashes
+🔹 git stash list
+
+36) Show all branches
+🔹 git branch -a
+
+37) Show remote repositories
+🔹 git remote -v
+
+38) Add a new remote
+🔹 git remote add <name> <url>
+
+39) Change remote URL
+🔹 git remote set-url origin <new-url>
+
+40) Remove a file from Git but keep it locally
+🔹 git rm --cached <file>
 ------------------------------------------
 Going forward we need to follow the below steps when working with GIT branches.
 
