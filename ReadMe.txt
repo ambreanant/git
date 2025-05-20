@@ -168,3 +168,15 @@ git add .>
 git commit -m "merge <id branc> in ncqa(2,3,4)">
 git push
 
+****************************creating new repo ******************************************
+create new repo from gitea
+in phpstrome go to folder then ,  git init
+ git remote add origin  http://gitea.cobraguard.local/iTEDIUM/unified-api
+or 
+git remote add origin  git@gitea.cobraguard.local:iTEDIUM/unified-api
+check using ,  git remote -v
+git status
+git add .
+git commit -m"message"
+git push --set-upstream origin master
+
